@@ -1,0 +1,102 @@
+
+Conversation opened. 1 read message.
+
+Skip to content
+Using Gmail with screen readers
+Meet
+New meeting
+Join a meeting
+Hangouts
+
+1 of 1,447
+mini project-2nd sem(web development)
+Inbox
+
+Visishta P <visishtapappala@gmail.com>
+Attachments
+01:08 (29 minutes ago)
+to me
+
+Error part is a txt file, it's the part i couldn't program in, it's for single-quotes on top of the user-review boxes, you can refer to the video and see if you can solve the problem.
+There is also an error for login page which i told you about.
+I referred to this link to make the login page: https://www.youtube.com/watch?v=L5WWrGMsnpw
+Make sure to put all the images in a folder called 'images' exactly, all small letters.
+
+
+
+
+34 Attachments
+Preview YouTube video How To Make Login & Registration Form Using HTML And CSS Step By Step
+
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(images/singapore1.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+hr{
+    margin: 20px;
+    border:none;
+    width: 71.5%;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+img{
+    height: 400px;
+    width: 300px;
+    border-radius: 0;
+    border: 5px solid #696969 opacity:10;
+    box-shadow: 0 0 15px #696969;
+    margin-left: 0;
+    border-radius: 10%;
+}
+.container{
+    position: relative;
+    width: 400px;
+    height: 300px;
+    display: inline-block;
+    margin-left: 40%;
+    margin-bottom: 10px;
+}
+.image{
+    display: block;
+    width: 400px;
+    height: 300px;
+}
+.overlayLeft{
+    position: absolute;
+    transition: all .3s ease;
+    opacity: 0;
+    background-color: #111;
+    border-radius: 10%;
+    display: inline-block;
+    margin-top: 16px;
+}
+.container:hover .overlayLeft{
+    opacity: 75%;
+}
+.image-title{
+    color: white;
+    font-family: serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    filter: brightness(50%)
+    transform: translate(-50%,-50%);
+    font-size: 40px;
+}
+a{
+    color: #808080;
+}
+.overlayLeft{
+    height: 100%;
+    width: 0;
+    top: 0;
+    left: 0;
+}
+.container:hover .overlayLeft{
+    width: 100%;
+}
+    
+style gallery singapore.css
+Displaying style gallery singapore.css.

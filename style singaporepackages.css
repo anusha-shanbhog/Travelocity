@@ -1,0 +1,106 @@
+body
+{
+    background-image: url(images/carousel-bg2.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+#myCarousel
+{
+    width: 900px;
+    margin-left: 110px;
+    margin-top: 13px;
+    height: 87.6%;
+    position: relative;
+}
+.item:after {
+  content:"";
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  background:rgba(0,0,0,0.7);
+}
+.carousel-caption h3 {
+    font-size: 50px;
+    margin-top: -70%;
+    margin-left: -50%;
+
+}
+.carousel-caption ul{
+    text-align: left;
+    margin-left: 11%;
+    padding: 5px;
+    font-size: 15px;
+}
+.price{
+    border: 2px solid #fff;
+    position: relative;
+    width: 170px;
+    margin-left: 7%;
+}
+.price h4{
+    padding: 50px;
+    margin-top: -30px;
+    font-size: 25px;
+}
+.price p{
+    font-size: 12px;
+    padding: -30px;
+    margin-top: -80px;
+}
+.btn{
+    margin-top: 20px;
+    background-color: lightseagreen;
+    width: 150px;
+    height: 45px;
+}
+.icons{
+    margin-top: 10px;
+    padding: 10px;
+    margin-left: -56.5%;
+}
+.item active .text{
+    position: relative;
+    margin-left: 0;
+    margin-top: 0;
+}
+.iterinary {
+    position: absolute;
+    margin-left: 80%;
+    margin-top: -65%;
+    font-size: 10px;
+    width: 200px;
+    border: 2px solid #fff;
+    padding: 20px;
+}
+.iterinary3
+{
+    position: absolute;
+    margin-left: 80%;
+    margin-top: -70%;
+    font-size: 10px;
+    width: 200px;
+    border: 2px solid #fff;
+    padding: 20px;
+}
+.iterinary2
+{
+    position: absolute;
+    margin-left: 80%;
+    margin-top: -55%;
+    font-size: 10px;
+    width: 200px;
+    border: 2px solid #fff;
+    padding: 20px;
+}
+.container1 img{
+    width: 150px;
+    height: 150px;
+    padding: 15px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 20%;
+}

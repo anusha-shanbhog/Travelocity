@@ -1,0 +1,100 @@
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(images/singapore1.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+img{
+    height: 300px;
+    width: 200px;
+    border-radius: 0;
+    border: 5px solid #696969 opacity:10;
+    box-shadow: 0 0 15px #696969;
+    margin-left: 0;
+    border-radius: 10%;
+}
+.container{
+    position: relative;
+    width: 300px;
+    height: 200px;
+    display: inline-block;
+    margin-left: 50%;
+    margin-bottom: 5px;
+}
+.image{
+    display: block;
+    width: 300px;
+    height: 200px;
+    margin-top: 30px;
+}
+
+.overlayLeft{
+    position: absolute;
+    transition: all .3s ease;
+    opacity: 0;
+    background-color: #111;
+    border-radius: 10%;
+    display: inline-block;
+    width: 300px;
+    height: 200px;
+    margin-top: 30px;
+}
+.container:hover .overlayLeft{
+    opacity: 75%;
+}
+.image-title{
+    color: white;
+    font-family: serif;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    filter: brightness(50%)
+    transform: translate(-50%,-50%);
+    font-size: 40px;
+}
+a{
+    color: #808080;
+}
+.overlayLeft{
+    height: 100%;
+    width: 0;
+    top: 0;
+    left: 0;
+}
+.container:hover .overlayLeft{
+    width: 100%;
+}
+
+.text{
+    color: #fff;
+    margin-left: 100px;
+    margin-right: 50px;
+    
+}
+.text h2{
+    margin-top: -108%;
+    font-size: 45px;
+    font-style: oblique;
+    font-family: serif;
+    margin-bottom: 50px;
+}
+.text p{
+    font-size: 18px;
+    line-height: 35px;
+    margin-right: 500px;
+}
+.main-logo img{
+    float: left;
+    width: 150px;
+    height: 150px;
+    margin-top: -1105px;
+    margin-left: 74px;
+}
+.video{
+    margin-top: 5px;
+    width: 600px;
+    height: 370px;
+    margin-left: 80px;
+    padding: 20px;
+    overflow: hidden;
+}

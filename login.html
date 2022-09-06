@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <title> Login and SignUp </title>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="style login.css">
+    </head>
+    
+    <body>
+        <div class="hero">
+            <div class="form-box">
+                <div style="overflow: hidden">
+                    
+                <div class="button-box">
+                    <div id="btn"></div>
+                    <button type="button" class="toggle-btn" onclick="login()"> Log In </button>
+                    <button type="button" class="toggle-btn" onclick="signup()"> Sign Up </button>
+                </div>
+                    
+                <form id="login" class="input-group"> 
+                <input type="text" class="input-field" placeholder="User ID" required>
+                <input type="password" class="input-field" placeholder="Password" required>
+                <input type="checkbox" class="check-box"><span> Remember Password </span>
+                <a href="forgot-password.html"> Forgot Password </a>
+                <button type="submit" class="submit-btn"> Log In </button>
+            </form>
+                    
+            <form id="signup" class="input-group"> 
+                <input type="text" class="input-field" placeholder="User ID" required>
+                <input type="email" class="input-field" placeholder="Email ID" required>
+                <input type="password" class="input-field" placeholder="New Password" required>
+                <input type="password" class="input-field" placeholder="Confirm New Password" required>
+                <input type="checkbox" class="check-box"><span> I agree to the terms & conditions </span>
+                <button type="submit" class="submit-btn"> Register </button>
+            </form>
+            
+            <div class="social-icons">
+                <img src="images/fb.jfif">
+                <img src="images/tw.png">
+                <img src="images/gp.png">
+            </div>
+                    
+            </div>
+        </div>
+    </div>
+            
+        <script>
+            var x = document.getElementById("login");
+            var y = document.getElementById("signup");
+            var z = document.getElementById("btn");
+            
+            function signup()
+            {
+                x.style.left = "-400px";
+                y.style.left = "50px";
+                z.style.left = "110px";
+            }
+            
+            function login()
+            {
+                x.style.left = "50px";
+                y.style.left = "450px";
+                z.style.left = "0";
+            }
+        </script>
+     
+    </body>
+</html>
